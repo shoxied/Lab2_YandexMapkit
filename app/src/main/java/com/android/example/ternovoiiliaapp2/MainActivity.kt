@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             setIcon(imageProvider)
         }
 
-        mapView.mapWindow.map.mapObjects.add
+        placemark.addTapListener(TapListener)
     }
 
     override fun onStart() {
